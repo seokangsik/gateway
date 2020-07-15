@@ -80,9 +80,9 @@ spring:
           predicates:
             - Path=
         - id: Item
-            uri: http://Item:8080
-            predicates:
-              - Path=/items/**
+          uri: http://Item:8080
+          predicates:
+            - Path=/items/**
       globalcors:
         corsConfigurations:
           '[/**]':
