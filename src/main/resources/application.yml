@@ -33,9 +33,9 @@ spring:
           predicates:
             - Path=
         - id: Item
-            uri: http://localhost:8087
-            predicates:
-              - Path=/items/**
+          uri: http://localhost:8087
+          predicates:
+            - Path=/items/**
       globalcors:
         corsConfigurations:
           '[/**]':
