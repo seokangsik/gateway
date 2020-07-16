@@ -23,7 +23,7 @@ spring:
         - id: Product
           uri: http://localhost:8084
           predicates:
-            - Path=/products/** 
+            - Path=/products/** /productStates/**
         - id: Payment
           uri: http://localhost:8085
           predicates:
