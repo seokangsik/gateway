@@ -70,7 +70,7 @@ spring:
         - id: Product
           uri: http://Product:8080
           predicates:
-            - Path=/products/** 
+            - Path=/products/** /productStates/**
         - id: Payment
           uri: http://Payment:8080
           predicates:
